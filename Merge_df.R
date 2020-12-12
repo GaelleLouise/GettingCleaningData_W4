@@ -7,7 +7,7 @@ Merge_df <- function() {
      x_test$SubjectType <- "test"
      x_train$SubjectType <- "train"
      # Merge X (test & train):
-     X <<- rbind(x_test,x_train)
+     X_total <<- rbind(x_test,x_train)
      
      # Merge Subjects:
      names(subject_test) <- "SubjectId"
@@ -16,5 +16,6 @@ Merge_df <- function() {
      
      #Merge Activities:
      y <<- rbind(y_test,y_train)
-     names(y) <- "ActivityId"
+     #names(y) <<- "ActivityId"
 }
+

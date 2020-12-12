@@ -27,6 +27,7 @@ It's launching successively all the other necessary scripts to obtain a tidy dat
 For all the scripts to work, you should check that the following packages are installed
 (the library function will be called when necessary):
 - stringr
+- dplyr
 
 # ############################################################################ #
 The necessary scripts are following (they are sourced when necessary):

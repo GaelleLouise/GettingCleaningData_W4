@@ -16,11 +16,9 @@ Coursera - Getting and Cleaning data - Programming Assignment Week 4
 
 # ############################################################################ #
 
-The final dataset contains several dataframes:
+The final dataset contains one unique dataframe named X and countaining:
 
-activity:
-     ActivityId => from 1 to 6
-     ActivityLabel => the corresponding labels (ex: WALKING, SITTING, LYING, ...)
+ActivityLabel => the label of the activity (ex: WALKING, SITTING, LYING, ...)
      
 subject:
      SubjectId => from 1 to 30
