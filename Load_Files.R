@@ -1,4 +1,7 @@
 Load_Files <- function(directory) {
+   # Check of the existence of the paths "/test" and "/train"
+   # Load the different files into distinct dataframes
+   
    # data from test set:
    if(!file.exists(paste(getwd(),"./test", sep = ""))) {
       message ("Directory 'test' doesn't exist! Could not load the data")

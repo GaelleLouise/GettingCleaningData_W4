@@ -1,9 +1,12 @@
 Merge_df <- function() {
-     # Measures names:
+     # Merge the 2 datasets (test and train) into only one
+     # for the different observations : X, y and subjects
+     
+     # Measures names are initialized with the features file:
      names(x_test) <- features$V2
      names(x_train) <- features$V2
      
-     # Adds "test" or "train" as "SubjectType" in both datasets
+     # Adds "test" or "train" as a new column "SubjectType" in both datasets X
      x_test$SubjectType <- "test"
      x_train$SubjectType <- "train"
      # Merge X (test & train):

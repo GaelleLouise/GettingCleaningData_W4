@@ -19,7 +19,6 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 ==================================================================
-
 # ############################################################################ #
 The main script is run_analysis.R. 
 It's launching successively all the other necessary scripts to obtain a tidy dataset.
@@ -30,7 +29,13 @@ For all the scripts to work, you should check that the following packages are in
 - dplyr
 
 # ############################################################################ #
+
 The necessary scripts are following (they are sourced when necessary):
 - Load_Files.R => load every necessary file in a specific dataframe
 - Merge_df.R => merge all the data from the same granularity in the same dataframe
-- Clean_Files.R => use clear names for each column and drop the unnecessary information
+- Manage_Columns.R => select only the expected information and add the activity name
+- Clean_Labels.R => use clear names for each column of the dataset
+- Extract_Avg_Values.R => average of the 1st dataset for each subject and each activity
+
+# ############################################################################ #
+
