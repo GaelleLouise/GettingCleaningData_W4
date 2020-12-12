@@ -6,7 +6,7 @@ Repository:
 Coursera - Getting and Cleaning data - Programming Assignment Week 4
 
 The purpose of this project is to prepare tidy data that can be used for later analysis
-The original dataset should be in the working directory and its main informations follow: 
+The original dataset should be in the working directory and its main information follows: 
 # ############################################################################ #
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
@@ -30,4 +30,6 @@ For all the scripts to work, you should check that the following packages are in
 
 # ############################################################################ #
 The necessary scripts are following (they are sourced when necessary):
-- Load_Files.R
+- Load_Files.R => load every necessary file in a specific dataframe
+- Merge_df.R => merge all the data from the same granularity in the same dataframe
+- Clean_Files.R => use clear names for each column and drop the unnecessary information
